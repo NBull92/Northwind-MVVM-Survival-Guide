@@ -3,5 +3,5 @@ This is the code for the Northwind application that was created during the study
 
 To Run the code in visual studio you'll need to update the App.Configs in projects "Northwind.Data" and "Northwind.Service", in the connectionstring, to point to the local NORTHWIND.MDF file:
 
-connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=<Insert your folder path here>\NORTHWND.MDF;Integrated Security=True;multipleactiveresultsets=True;App=EntityFramework&quot;" 
+connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=\[Insert your folder path here\]\NORTHWND.MDF;Integrated Security=True;multipleactiveresultsets=True;App=EntityFramework&quot;" 
 
